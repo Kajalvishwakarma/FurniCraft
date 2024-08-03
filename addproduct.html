@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <header>
+    <!-- place navbar here -->
+  </header>
+  <main>
+    <div class="container-fluid"
+      style=" background-color: rgba(197, 217, 232, 0.232); padding-top: 80px; padding-bottom: 80px;">
+      <a
+      name=""
+      id=""
+      class="btn btn-outline-dark"
+      href="admin_show_allprod.php"
+      role="button"
+      >BACK TO PRODUCTS</a
+    >
+    
+      <div class="block">
+        <center>
+         
+            <h4 class="display-5" style="margin-bottom: 70px;"><img src="images/con" class="img-fluid rounded-top"
+              alt="">ADD PRODUCT</h4>
+             
+        
+        </center>
+        <div class="row justify-content-center align-items-center g-2" style="padding-left: 10px; padding-right: 10px;">
+
+          <div class="col-sm-12 col-md-6">
+
+            <form action="addprod.php" method="post" enctype="multipart/form-data">
+              <div class="row">
+                <div class="col-6">
+                  <div class="form-group">
+                    <label class="text-black" for="fname"
+                      style="padding-left: 10px; margin-bottom: 5px; font-size: large;">NAME</label>
+                    <input type="text" class="form-control" id="" name="name"
+                      style="padding: 15px; border-radius: 20px;">
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="form-group">
+                    <label class="text-black" for="lname"
+                      style="padding-left: 10px; margin-bottom: 5px; font-size: large;">CATEGORY</label>
+                    <input type="text" class="form-control" id="" name="category"
+                      style="padding: 15px; border-radius: 20px;">
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-6">
+                  <div class="form-group">
+                    <label class="text-black" for="fname"
+                      style="padding-left: 10px; margin-bottom: 5px; font-size: large;">MRP</label>
+                    <input type="number" class="form-control" id="" name="mrp"
+                      style="padding: 15px; border-radius: 20px;">
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="form-group">
+                    <label class="text-black" for="lname"
+                      style="padding-left: 10px; margin-bottom: 5px; font-size: large;">OFFER PRICE</label>
+                    <input type="number" class="form-control" id="" name="sp"
+                      style="padding: 15px; border-radius: 20px;">
+                  </div>
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="" class="form-label"
+                  style="padding-left: 10px; margin-bottom: 5px; font-size: large;">Choose Image</label>
+                <input type="file" class="form-control" name="image" id="" placeholder="" aria-describedby="fileHelpId"
+                  style="padding: 15px; border-radius: 20px;">
+
+              </div>
+
+              <button type="submit" class="btn btn-primary-hover-outline"
+                style="background-color: black; color: white; padding: 15px; border-radius: 20px; font-weight: bolder; padding-left: 20px; padding-right: 20px;">&nbsp;ADD
+                &nbsp;PRODUCT&nbsp;</button>
+              </form>
+          </div>
+
+        
+
+        </div>
+
+      </div>
+
+    </div>
+
+    </div>
+
+  </main>
+  <footer>
+    <!-- place footer here -->
+  </footer>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
+    </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

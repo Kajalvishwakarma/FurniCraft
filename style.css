@@ -1,0 +1,56 @@
+.container1 {
+  margin: 5px;
+  padding: 10px;
+}
+.container li a {
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black !important;
+}
+
+.btn.btn-secondary {
+  color: #2f2f2f;
+  background: #ec9f6d;
+  border-color: #ec9f6d;
+}
+.btn.btn-secondary:hover {
+  border-color: ec9f6d;
+  color: #ec9f6d;
+  background: transparent;
+}
+.btn.btn-white-outline {
+  background: transparent;
+  border-width: 2px;
+  color: #ec9f6d;
+  border-color: rgb(236, 159, 109);
+}
+.btn.btn-white-outline:hover {
+  background: #ec9f6d;
+  border-color: #ec9f6d;
+  color: white;
+}
+
+.card {
+  border: 0px white;
+}
+
+.btn.btn-black-outline{
+  color: black;
+  border-color: black;
+}
+
+.btn.btn-black-outline:hover{
+  background-color: black;
+  color: white;
+}
+/* 
+.btn.btn-primary{
+  border-color: rgb(0, 208, 255);
+  background-color: white;
+  color:  rgb(0, 208, 255);;
+} */
+
+
+
+
+
